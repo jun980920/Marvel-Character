@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MARVEL</title>
+    <style>
+      a{
+        margin :15px;
+      }
+      h1{
+        text-align:center;
+        margin:10px;
+        margin-bottom:5px;
+      }
+
+      #grid1, #grid2{
+        text-align:center;
+
+        display:grid;
+        grid-template-columns:1fr 1fr;
+      }
+
+      #main{
+        display:grid;
+        grid-template-columns:110px 1fr;
+        border-bottom:1px solid gray;
+      }
+      .img{
+        width:100%;
+        height:100%;
+        padding:15px;
+      }
+      p{
+        margin:15px;
+      }
+      @media(max-width:800px)
+      {
+        #main, #grid1, #grid2{
+          display:block;
+        }
+        .img, h2{
+          display:none;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id = "main">
+    <a href="Introduction.html"><img src="C:\Users\14112\OneDrive\바탕 화면\web\Marvel-Emblema.png" width = "90px"></a>
+    <h1 style="font-size:46px;font-weight: bold;">MARVEL CHARACTERS</h1>
+    </div>
+    <div>
+      <div id = "grid1">
+        <img src="C:\Users\14112\OneDrive\바탕 화면\web\dr.jpg" class="img">
+        <p>
+          <b>Doctor Stephen Strange</b> is a fictional character appearing in American comic books published by Marvel Comics. Created by Steve Ditko with Stan Lee, the character first appeared in Strange Tales #110 (cover-dated July 1963). Doctor Strange serves as the Sorcerer Supreme, the primary protector of Earth against magical and mystical threats. Strange was created during the Silver Age of Comic Books to bring a different kind of character and themes of mysticism to Marvel Comics.
+
+The character starts as a brilliant but egotistically arrogant neurosurgeon whose hands get injured in a car accident. Despite regaining hand function, he is told that current medical therapy and rehabilitation would not be enough to enable him to practice again as a surgeon. Unable to accept this prognosis, he starts to travel the world searching for alternative ways of healing, which leads him to the Ancient One, the Sorcerer Supreme. Strange becomes his student and learns to be a master of both the mystical and the martial arts. He acquires an assortment of mystical objects, including the powerful Eye of Agamotto and Cloak of Levitation, and takes up residence in a mansion referred to as the Sanctum Sanctorum, located at 177A Bleecker Street, Greenwich Village, New York City. Strange assumes the title of Sorcerer Supreme and, with his friend and valet Wong, defends the world from mystical threats.
+
+In live-action adaptations, the character was first portrayed by Peter Hooten in the 1978 television film Dr. Strange. Since 2016, Benedict Cumberbatch has portrayed the role of Stephen Strange in the Marvel Cinematic Universe.
+        </p>
+      </div>
+      <div id = "grid2">
+        <h2>Dr.Strange</h2>
+        <div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
